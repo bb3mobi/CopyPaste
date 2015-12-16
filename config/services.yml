@@ -1,0 +1,8 @@
+services:
+    saturnZ.CopyPaste.listener:
+        class: saturnZ\CopyPaste\event\listener
+        arguments:
+            - %core.root_path%
+            - @template
+        tags:
+            - { name: event.listener }

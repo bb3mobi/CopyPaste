@@ -1,0 +1,28 @@
+{
+    "name": "saturnZ/CopyPaste",
+    "type": "phpbb-extension",
+    "description": "CopyPaste",
+    "homepage": "http://www.ribak72.ru/",
+    "version": "1.0.1",
+    "time": "2015-12-16",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "saturn-z",
+            "homepage": "http://www.ribak72.ru/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+      "phpbb/epv": "dev-master"
+    },
+    "extra": {
+        "display-name": "CopyPaste",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*@dev"
+        }
+    }
+}
