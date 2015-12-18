@@ -11,8 +11,16 @@
             "name": "saturn-z",
             "homepage": "http://www.ribak72.ru/",
             "role": "Developer"
-        }
-    ],
+		},  
+		{
+			"name": "igorbond",
+			"homepage": "http://southklad.ru/",
+			"role": "Assistant"
+		},  
+		{
+			"name": "MAzZY",
+			"role": "Shared script"
+		}],
     "require": {
         "php": ">=5.3.3"
     },
