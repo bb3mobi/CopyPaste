@@ -4,7 +4,7 @@
         var body_element = document.getElementsByTagName('body')[0];
         var selection;
         selection = window.getSelection();
-        var pagelink = "<br />© Источник: "+document.location.href+"";
+        var pagelink = "<br />{L_COPYRIGHT_NAME}: "+document.location.href+"";
         var copytext = selection + pagelink;
         var newdiv = document.createElement('div');
         newdiv.style.position='absolute';
